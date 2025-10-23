@@ -95,8 +95,6 @@ services:
 
   frontend:
     image: frappe/erpnext:v15.84.0
-    networks:
-      - frappe_network
     depends_on:
       - websocket
     deploy:
